@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textView5"
+        style="@style/Titulo"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:text="Burguer"
+        android:textSize="24sp" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        style="@style/img"
+        android:layout_width="match_parent"
+        android:layout_height="312dp"
+        app:srcCompat="@drawable/burger" />
+
+    <TextView
+        android:id="@+id/textView6"
+        style="@style/Desc"
+        android:layout_width="match_parent"
+        android:layout_height="94dp"
+        android:text="Hamburger caseiro, feito com ingredientes do mercado!"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/button3"
+        style="@style/botaocomp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="COMPRAR"
+        android:textSize="20sp" />
+</LinearLayout>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textView"
+        style="@style/Titulo"
+        android:layout_height="75dp"
+        android:text="Pizza de Mercado"
+        android:textSize="24sp" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        style="@style/img"
+        android:layout_height="378dp"
+        app:srcCompat="@drawable/pizza" />
+
+    <TextView
+        android:id="@+id/textView2"
+        style="@style/Desc"
+        android:layout_height="88dp"
+        android:text="Pizza comprada no mercado, com o prazo de validade em dia!"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/button"
+        style="@style/botaocomp"
+        android:text="COMPRAR"
+        android:textSize="20sp" />
+
+</LinearLayout>

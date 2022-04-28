@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    style="@style/img"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textView3"
+        style="@style/Titulo"
+        android:layout_width="match_parent"
+        android:layout_height="58dp"
+        android:text="Bolo"
+        android:textSize="24sp" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="match_parent"
+        android:layout_height="288dp"
+        app:srcCompat="@drawable/bolo" />
+
+    <TextView
+        android:id="@+id/textView4"
+        style="@style/Desc"
+        android:layout_width="match_parent"
+        android:layout_height="124dp"
+        android:text="Bolinho de chocolate tambem comprado no mercado!"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/button2"
+        style="@style/botaocomp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="COMPRAR"
+        android:textSize="20sp" />
+</LinearLayout>
